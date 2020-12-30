@@ -9,7 +9,7 @@ has_many :characters
     # associated with the a show.
     # Remember, a show should have many actors through characters.
     binding.pry
-  
+
 
 
   end
