@@ -1,7 +1,7 @@
 class Show < ActiveRecord::Base
 
 belongs_to :network
-has_many :characters, through: :actors
+has_many :characters
 
   def actors_list
     #that returns an Array of the full names of each actor
