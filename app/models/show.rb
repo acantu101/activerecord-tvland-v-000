@@ -8,8 +8,8 @@ has_many :actors, through: :characters
     # associated with the a show.
     # Remember, a show should have many actors through characters.
 
-    self.characters.map do |c|
-      c.actor.name
+    self.map do |c|
+      c.name
 
       list_actor_names = "#{c.name}"
       list_roles_names
