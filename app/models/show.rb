@@ -12,7 +12,7 @@ has_many :actors, through: :characters
       c.name
 
       list_actor_names = "#{c.name}"
-      list_roles_names
+      list_actor_names
 
   end
 end
