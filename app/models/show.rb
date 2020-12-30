@@ -12,7 +12,7 @@ has_many :actors, through: :characters
     self.characters.map do |c|
       c.actor
 
-      list_actor_names = "#{c.actor}"
+      list_actor_names = "#{c.actor.name}"
       list_actor_names
 
   end
